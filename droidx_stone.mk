@@ -16,7 +16,7 @@ $(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/stone/device.mk)
 
 # DroidX stuff
-DROIDX_BUILD_TYPE := UNOFFICIAL
+DROIDX_BUILD_TYPE := OFFICIAL
 DROIDX_GAPPS := true
 
 # Device props
