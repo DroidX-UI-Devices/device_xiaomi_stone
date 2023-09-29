@@ -8,4 +8,4 @@ git clone --depth=1 https://github.com/Stone-Trees/xiaomi_stone-kernel.git devic
 
 # git clone --depth=1 https://github.com/stone-devs/hardware_xiaomi hardware/xiaomi
 
-git clone --depth=1 https://github.com/Drpto/packages_apps_prebuilts.git packages/apps/prebuilts
+git clone --depth=1 https://github.com/AOSPA/android_hardware_qcom_audio.git -b topaz-888 vendor/qcom/opensource/audio-hal/primary-hal
