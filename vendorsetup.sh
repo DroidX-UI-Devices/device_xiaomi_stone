@@ -6,6 +6,7 @@ git clone --depth=1 https://github.com/Stone-Trees/kernel_xiaomi_sm6375.git -b l
 
 git clone --depth=1 https://github.com/Stone-Trees/xiaomi_stone-kernel.git device/xiaomi/stone-kernel
 
-# git clone --depth=1 https://github.com/stone-devs/hardware_xiaomi hardware/xiaomi
+git clone --depth=1 https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git -b v4a packages/apps/ViPER4AndroidFX
 
-git clone --depth=1 https://github.com/AOSPA/android_hardware_qcom_audio.git -b topaz-888 vendor/qcom/opensource/audio-hal/primary-hal
+rm -rf hardware/qcom-caf/sm8350/display
+git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_display.git -b lineage-21.0-caf-sm8350 hardware/qcom-caf/sm8350/display
